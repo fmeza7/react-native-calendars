@@ -392,7 +392,7 @@ export default class Agenda extends Component<AgendaProps, State> {
   renderWeekDaysNames = () => {
     return (
       <WeekDaysNames
-        firstDay={this.props.firstDay}
+        firstDay={6}
         style={this.style.dayHeader}
       />
     );
